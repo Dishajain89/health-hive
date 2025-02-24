@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-
 import "./style.css";
 
 function Index() {
