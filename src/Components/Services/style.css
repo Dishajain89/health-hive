@@ -4,7 +4,7 @@
    justify-content: center;
    align-items: center;
    /* background-color:  rgb(27 227 76 / 30%); */
-   padding: 6vh 0;
+   padding: 3.75rem 0;
 }
 .service h1 {
    font-size: 2rem;
@@ -59,9 +59,10 @@
 }
 .item-card-content h6 {
    font-weight: 700;
+   font-size: 1.3rem;
 }
 .item-card-content p {
-   font-size: 0.7rem;
+   font-size: 0.9rem;
    font-weight: 500;
 }
 .item-right {
@@ -143,18 +144,22 @@
 
 
 @media screen and (max-width: 600px) {
+   .service{
+      padding: 2rem 0;
+   }
    .item-card {
       height: 100%;
       flex-direction: column;
+      margin: 0;
    }
    .serviceImg{
       width: 80%;
    }
    .item-card-content h6 {
-      font-size: 1rem;
+      font-size: 1.2rem;
    }
    .item-card-content p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
    }
 
 }

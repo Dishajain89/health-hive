@@ -33,14 +33,14 @@
 }
 .location3 h4{
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2rem;
 }
 .location3 p{
     font-weight: 400;
 }
 .location h4{
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2rem;
 }
 .location p{
     font-weight: 400;
@@ -81,7 +81,7 @@
         padding: 8vh 0vh;
     }
     .contact h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .contact p{
         font-size: 1.4rem;
@@ -148,7 +148,23 @@
         padding:2vh 0;
         padding-right: 8vh;
     }
+    .location h4{
+        font-size: 1.5rem;
+    }
+    .location p{
+        font-size: 1rem;
+    }
     .location3 {
         padding: 2vh 0;
+    }
+    .location3 h4{
+        font-size: 1.5rem;
+    }
+    .location3 p{
+        font-size: 1rem;
+    }
+
+    .contact-icon{
+        font-size: 6vh;
     }
 }

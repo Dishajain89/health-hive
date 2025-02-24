@@ -51,27 +51,6 @@ function Index() {
                      Contact Us
                   </a>
                </li>
-
-               <li>
-                  <a className="nav-link nav-icon" aria-current="page" href="/">
-                     <FaTwitter className="icon" />
-                  </a>
-               </li>
-               <li>
-                  <a className="nav-link nav-icon" aria-current="page" href="/">
-                     <FaFacebook className="icon" />
-                  </a>
-               </li>
-               <li>
-                  <a className="nav-link nav-icon" aria-current="page" href="/">
-                     <FaInstagram className="icon" />
-                  </a>
-               </li>
-               <li>
-                  <a className="nav-link nav-icon" aria-current="page" href="/">
-                     <FaLinkedin className="icon" />
-                  </a>
-               </li>
             
             </ul>
             <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>

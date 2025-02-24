@@ -6,7 +6,7 @@ import "./style.css";
 function Index() {
    return (
       <>
-      <div className="about_mid">
+      <div className="about_mid" id="about">
                <div className="about_mid_left">
                   <img src={require("../../assets/img/aboutUs.jpg")} alt="about-img" />
                </div>
@@ -42,7 +42,7 @@ function Index() {
                   </div>
                </div>
             </div>
-         <div className="about" id="about">
+         <div className="about" >
             <h1>Why choose Health Hive?</h1>
 
             <div className="about_top">
@@ -109,39 +109,6 @@ function Index() {
             </div>
 
          </div>
-            
-
-         {/* <div className="bottom">
-            <div className="bottom_box iconT">
-               <img className="countImg" src={require("../../assets/img/pic.png")} alt="aboutImg" />
-               <h2>
-                  <CountUP end={4} duration={6} />
-               </h2>
-
-               <h6>Years of experience</h6>
-            </div>
-            <div className="bottom_box iconT">
-               <img className="countImg" src={require("../../assets/img/count2.png")} alt="aboutImg" />
-               <h2>
-                  <CountUP end={21075} duration={5} />
-               </h2>
-               <h6>Registered Doctors</h6>
-            </div>
-            <div className="bottom_box">
-               <img className="countImg" src={require("../../assets/img/count3.png")} alt="aboutImg" />
-               <h2>
-                  <CountUP end={255} duration={5} />
-               </h2>
-               <h6>Panel of Lawyers</h6>
-            </div>
-            <div className="bottom_box">
-               <img className="countImg" src={require("../../assets/img/count3.png")} alt="aboutImg" />
-               <h2>
-                  <CountUP end={583} duration={5} />
-               </h2>
-               <h6>Successfully Cases Handled</h6>
-            </div>
-         </div> */}
       </>
    );
 }
