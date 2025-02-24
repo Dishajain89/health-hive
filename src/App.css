@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Libre+Baskerville&display=swap');
+
+body{
+    /* background-color: rgb(27 227 76 /0.1); */
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway", sans-serif;
+   
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;   
+}

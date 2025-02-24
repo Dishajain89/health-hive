@@ -1,0 +1,66 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .containerHeading{
+    font-weight: 700;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, rgb(185, 185, 185) 13%, rgb(6 170 94) 71%, rgb(185, 185, 185) 5%) 3;
+    margin: 1rem 8rem;
+    text-align: center;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .plan-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    height: 20rem;
+    width: 25rem;
+    margin: 1rem;
+    /* border: 1px solid red; */
+  }
+  .plan-card:hover {
+    box-shadow: 0px 3px 22px -3px rgba(212, 212, 212, 1);
+   padding: 25px;
+  }
+  .plan-card.selected {
+    border:1px solid rgb(6 170 94);
+    box-shadow: 0px 3px 22px -3px rgba(212, 212, 212, 1);
+   padding: 25px;
+  }
+ 
+  .plan-card .planName{
+    font-family: 600;
+  }
+  .plans .plan-card:hover .planName{
+    color: rgb(6 170 94);
+    box-shadow: none;
+  }
+  .purchase-button {
+    background-color: rgb(6 170 94);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .purchase-button a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .purchase-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

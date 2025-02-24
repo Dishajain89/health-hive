@@ -1,0 +1,264 @@
+.about {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem 0;
+}
+.about h1 {
+   font-weight: 700;
+   border-bottom: 3px solid;
+   padding-top: 3vh;
+   border-image: linear-gradient(to right, rgb(185, 185, 185) 13%, rgb(6 170 94) 71%, rgb(185, 185, 185) 5%) 3;
+   animation: 4s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+   0% {
+     opacity: 0;
+     transform: translateY(80%);
+   }
+   20% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+ }
+.about_top {
+   justify-content: center;
+   align-items: center;
+   margin: 2vh 4vh;
+   flex-wrap: wrap;
+   padding:2vh 4vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+
+}
+
+.about_top_box {
+   text-align: justify;
+   margin: 8vh 4vh;
+   height: 30rem;
+   cursor: pointer;
+}
+.aboutImg {
+   width: 100%;
+}
+
+.about_top .about_top_box :hover {
+   box-shadow: 0px 3px 22px -3px rgba(212, 212, 212, 1);
+   padding: 0.7vh;
+}
+.about_top_box .heading_3 {
+   font-weight: 700;
+   font-size: 1.5rem;
+   padding: 0.5rem;
+}
+
+.para {
+   padding: 0.3rem 0.5rem;
+}
+
+.about_top .about_top_box :hover .heading_3 {
+   color: rgb(6 170 94);
+   box-shadow: none;
+}
+.about_top .about_top_box :hover .para {
+   box-shadow: none;
+}
+
+.about_mid {
+   display: flex;
+   padding: 3rem 2rem;
+   /* background-color:  rgb(27 227 76 / 30%); */
+   gap: 2rem;
+}
+.about_mid_left {
+   width: 50%;
+   padding: 2rem;
+}
+.about_mid_left img {
+   width: 100%;
+}
+.about_mid_right {
+   width: 50%;
+   text-align: justify;
+}
+.about_mid_right h2 {
+   font-weight: 700;
+}
+.about_mid_right p {
+  text-align: justify;
+}
+.about_mid_icon {
+   color: rgb(6 170 94);
+   margin: 0 1vh;
+}
+.mid_right {
+   display: flex;
+}
+
+.mid_right_left {
+   width: 50%;
+   padding: 4vh 2vh;
+}
+.mid_right_left h4 {
+   font-size: 2.9vh;
+   font-weight: 800;
+}
+
+.mid_icon {
+   color: rgb(6 170 94);
+   font-size: 6vh;
+}
+
+.pro_heading {
+   display: flex;
+   justify-content: space-between;
+   padding: 1vh 0;
+   color: rgb(71, 69, 69);
+   font-size: 6vh;
+   font-weight: 800;
+}
+.about-pro {
+   width: 36rem;
+   margin: 1vh 0;
+}
+
+
+.countImg {
+   width: 50%;
+}
+@media screen and (max-width: 820px) {
+   .about {
+      padding: 6vh 0 0 0;
+   }
+   .about p {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-top: 10px;
+   }
+   .about_top {
+      grid-template-columns: 1fr 1fr;
+      margin: 0;
+      padding: 0;
+   }
+   .about_top_box {
+      margin: 2vh 1vh;
+      padding: 1vh 2vh;
+      height: 35rem;
+   }
+   .about_top_box p {
+      font-weight: 600;
+      font-size: 1.4vh;
+   }
+   .about_top_box .heading_3 {
+      font-weight: 700;
+      font-size: 1.3rem;
+   }
+   .about_top_icon {
+      font-size: 7vh;
+      padding: 1.9vh 1.5vh;
+   }
+   .about_mid {
+      flex-direction: column;
+   }
+   .about_mid_left{
+      width: 100%;
+   }
+  
+   .about_mid_right {
+      width: 100%;
+      padding: 4vh;
+   }
+   .about_mid_right p {
+      font-size: 1rem;
+      font-weight: 600;
+   }
+   .mid_right_left h4 {
+      font-size: 2vh;
+      font-weight: 800;
+   }
+   .mid_icon {
+      font-size: 6vh;
+      margin-bottom: 2vh;
+   }
+  
+   .iconT {
+      padding: 1vh;
+   }
+ 
+}
+
+@media screen and (max-width: 728px) {
+   .about {
+      text-align: center;
+      padding: 6vh 4vh;
+   }
+   .about p {
+      font-weight: 600;
+      margin-bottom: 0;
+   }
+   .about_top {
+      justify-content: center;
+   }
+   .about_top_box {
+      margin: 2vh 3vh;
+   }
+   .about_top_box p {
+      font-size: 2.3vh;
+   }
+  
+   .about_mid_right {
+      padding: 3vh;
+      text-align: left;
+   }
+   .about_mid_right h2 {
+      font-size: 5vh;
+      font-weight: 700;
+   }
+   .about_mid_right p {
+      font-size: 0.9rem;
+      font-weight: 600;
+   }
+   .mid_right {
+      flex-direction: column;
+   }
+   .mid_right_left {
+      width: 100%;
+      padding: 4vh 1vh;
+   }
+
+  
+}
+@media screen and (max-width: 590px) {
+    .about {
+        padding: 0;
+    }
+
+    .about_top{
+      grid-template-columns: 1fr;
+    }
+    .about_top_box{
+      padding: 2rem;
+      margin: 0;
+    }
+   .about h1 {
+      font-size: 1.6rem;
+   }
+   .about_mid_left{
+    margin: 0;
+    padding: 0;
+   }
+
+   .about_mid_right{
+      padding: 0;
+   }
+}
