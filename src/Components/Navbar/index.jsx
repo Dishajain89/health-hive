@@ -15,13 +15,6 @@ function Index() {
                   Health Hive
                </a>
             </h3>
-            <div className="icon_mob_div">
-               <FaTwitter className="icon_mob" />
-               <FaFacebook className="icon_mob" />
-               <FaInstagram className="icon_mob" />
-               <FaLinkedin className="icon_mob" />
-            </div>
-
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
                <li>
                   <a className="nav-link active" href="/">
