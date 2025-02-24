@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 import "./style.css";
 
 function Index() {
    const [isMobile, setIsMobile] = useState(false);
 
-   // const [showDrop, setShowDrop] = useState(false);
-   // var x = document.getElementById("nav-drop");
-   // x.addEventListener("mouseover", ()=>setShowDrop(true));
-   // x.addEventListener("click",()=>setShowDrop(true));
-   // x.addEventListener("mouseout", ()=>setShowDrop(false));
    return (
       <>
          <nav className="navbar" id="nav">

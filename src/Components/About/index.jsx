@@ -1,6 +1,5 @@
 import React from "react";
 import { FaUserMd, FaHandshake } from "react-icons/fa";
-import CountUP from "react-countup";
 
 import "./style.css";
 
