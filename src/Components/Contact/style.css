@@ -54,27 +54,11 @@
     background-color:#dfe7ff ;
 }
 .contact-icon:hover{
-    background-color:#2988d6 ;
-    color: white;
-}
-.contact_form{
-    text-align: center;
-    background-color: white;
-    padding:6vh 4vh;
-    margin: 4vh 15vh;
-}
-.btn-send{
-    color: white;
     background-color:rgb(6 170 94) ;
-    padding: 1.5vh 3vh;
-}
-.btn-send:hover{
     color: white;
-    background-color:rgb(115, 195, 241) ;
 }
-.contact_form label{
-    color: gray;
-}
+
+
 
 @media screen and (max-width: 820px){
     .contact{

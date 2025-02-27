@@ -16,9 +16,9 @@ function index() {
                <button className="rounded-3 mx-3 headerBtn">
                   <a href="#contact">Book Now</a>
                </button>
-               <button className="rounded-3 mx-3 headerBtn">
+               {/* <button className="rounded-3 mx-3 headerBtn">
                   <Link to="/planPurchase"> Health Hive Plan</Link>
-               </button>
+               </button> */}
             </div>
          </div>
       </div>

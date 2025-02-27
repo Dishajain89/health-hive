@@ -111,3 +111,7 @@
    background-color: rgba(116, 247, 175, 0.5) !important;
    box-shadow: rgb(6 170 94) 0px 0px 1px 3px !important;
 }
+
+.iNpnDY:hover, .iNpnDY:focus, .ultaZ:hover, .ultaZ:focus{
+   box-shadow: rgb(20 163 51 / 50%) 0px 0px 1px 3px !important;
+}
